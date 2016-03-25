@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
-gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
@@ -35,3 +34,11 @@ group :development do
   gem 'spring'
 end
 
+group :development do
+	gem 'sqlite3'
+end
+
+group :development do
+	gem 'pg'
+	gem 'rails_12factor'
+end
